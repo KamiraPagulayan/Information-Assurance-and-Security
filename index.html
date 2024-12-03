@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Activity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to HTML Basics</h1>
+        <p>This is a simple HTML page to practice your skills.</p>
+    </header>
+
+    <section class="table-section">
+        <h2>HTML Tables</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Anna</td>
+                <td>22</td>
+                <td>London</td>
+            </tr>
+            <tr>
+                <td>Kamira</td>
+                <td>21</td>
+                <td>Pasig</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="divisions-section">
+        <h2>HTML Divisions</h2>
+        <div class="student div-soft-blue">
+            <p><strong>Name:</strong> John</p>
+            <p><strong>Age:</strong> 20</p>
+            <p><strong>Description:</strong> John is a dedicated student with a keen interest in web development.</p>
+        </div>
+
+        <div class="student div-soft-green">
+            <p><strong>Name:</strong> Anna</p>
+            <p><strong>Age:</strong> 22</p>
+            <p><strong>Description:</strong> Anna excels in graphic design and loves to create digital art.</p>
+        </div>
+
+        <div class="student div-soft-lavender">
+            <p><strong>Name:</strong> Kamira</p>
+            <p><strong>Age:</strong> 21</p>
+            <p><strong>Description:</strong> Kamira is a great communicator and passionate about social media marketing.</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>HTML Input Elements</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="skills">Select Your Skill Level:</label>
+            <select id="skills" name="skills">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select><br><br>
+
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+            <label for="traveling">Traveling</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
